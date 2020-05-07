@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.phone_head{
+    font-size: 18px;
+    background: #000;
+    color: #fbac46;
+    padding: 20px 290px 0 20px;
+    display: flex;
+    justify-content: flex-end; 
+}
+/*ШАПКА*/
+header{
+    width: 100%;
+    background: #000;
+    display: flex;
+}
+.header_logo{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background: url(../img/logo.png) 50px 30px no-repeat;
+    padding-bottom: 100px;
+}
+.header_logo_AB{
+    color: #fbac46
+}
+nav{
+    margin-top: 30px;
+    margin-left: 35%;
+}
+.topnav a{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+.topnav a:hover{
+    border-bottom: 3px solid #fcac45;
+}
+.topnav .iconmenu{
+    display: none;
+}
+/*ШАПКА*/
+/*Главная*/
+.main_welcome{
+    background: #000;
+    text-align: center;
+    padding: 205px 0 423px 0;
+}
+.main_welcome h1{
+    color: #999999;
+    font-size: 44px;
+    font-weight: lighter;
+}
+.main_welcome .main_weclome_h1{
+    color: #fbac46;
+    font-size: 44px;
+    font-weight: bold;
+}
+.main_welcome p{
+    font-size: 20px;
+    color: #d4d4d4;
+    font-weight: 700;
+}
+/*Главная*/
+/*Блок "О НАС"*/
+.about{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 115px 0 108px 0;
+    text-align: center;
+}
+.right_side{
+    padding-left: 10%;
+}
+.right_side h2{
+    display: inline;
+    font-size: 34px;
+    color: #222222;
+    padding-bottom: 38px;
+    font-weight: lighter;
+}
+.right_side p{
+    font-size: 20px;
+    text-align: left; 
+    margin: 10px 0 10px 0;
+}
+.left_side{
+    margin: 50px 0 10px 0;
+}
+/*Блок "О НАС"*/
+/*Блок "МА ОБЕСПЕЧИВАЕМ*/
+.main_services{
+    background: #000;
+    width: 100%;
+    padding: 92px 0 128px 0;
+    text-align: center;
+}
+.main_services h1{
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: 130px;
+}
+.services_cards{
+    padding-left: 10%;
+    width: 80%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 101px;
+}
+.services_card h3{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+}
+/*Блок "МА ОБЕСПЕЧИВАЕМ*/
+/*Блок "УСЛУГИ"*/
+.main_services_2{
+    width: 80%;
+    margin: auto;
+    padding: 57px 0 130px 0;
+    text-align: center;
+}
+.main_services_2 h1{
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 100;
+    color: #000;
+    padding-bottom: 83px;
+}
+.main_services_2 p{
+    color: #000;
+    font-size: 22px;
+    font-style: italic;
+    padding-bottom: 96px;
+}
+
+.sides{
+    display: flex;
+    text-align: left;
+}
+.right_side_2{
+    margin-left: 8%;
+}
+.right_side_2 li{
+    color: #000;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    background: url(../img/point.png) 0px no-repeat;
+    padding-left: 25px;
+}
+/*Блок "УСЛУГИ"*/
+/*Блок "ЦЕНЫ"*/
+.price{
+    background: #000;
+    padding: 96px 0 96px 0;
+    color: #fff;
+    text-align: center;
+}
+.price h1{
+    font-size: 44px;
+    font-weight: 300;
+    padding-bottom: 100px; 
+}
+.price_table p{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.price_table{
+    padding-left: 37%;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+.price_table li{
+    font-size: 17px;
+    background: url(../img/negarive_point.png) 0px no-repeat;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+/*Блок "ЦЕНЫ"*/
+/*Блок "Связь"*/
+.main_send{
+    padding-top: 69px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.main_send h1{
+    font-size: 44px;
+    font-weight: 500;
+    font-style: italic;
+}
+.main_send p{
+    font-size: 15px;
+    color: #000;
+}
+.contact_wrapper{
+    padding-top: 100px;
+    width: 772px;
+    margin: 0 auto;
+    color: #636363;
+    text-align: left;
+}
+.red{
+    color: rgb(255, 0, 0);
+}
+input{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.form_inputs{
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+textarea{
+    width: 95%;
+    height: 160px;
+}
+input, textarea{
+    border: 12 solid #999999;
+}
+.button_block{
+    display: flex;
+    justify-content: flex-end;
+}
+input[type=submit]{
+    width: 165px;
+    height: 40px;
+    background: #fbac46;
+    color: #fff;
+    margin-right: 36px;
+    margin-top: 20px;
+}
+/*Блок "Связь"*/
+footer{
+    background: #000;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: #fff;
+    padding-top: 54px;
+    padding-bottom: 66px;
+}
+.bottom_head h6{
+    font-size: 12px;
+}
+.footer_Sambo{
+    text-transform: uppercase;
+    color: #fbac46;
+}
+.bottom_head p{
+    font-weight: 100;
+    font-size: 11px;
+}
+.adres{
+    font-size: 12px;
+}
+.contact .phone_bot{
+    font-size: 12px;
+    color: #fbac46;
+}
+.contact .phone_text{
+    font-size: 11px;
+}

@@ -1,0 +1,204 @@
+@media screen and (max-width:1550px) {
+    nav{
+        margin-left: 30%;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .picture_0{
+        max-width: 80%;
+        margin-left: 0%;
+    }
+    .phone_head{
+        padding: 20px 50px 0 20px; 
+    }
+}
+
+@media screen and (max-width:1400px) {
+    nav{
+        margin-left: 25%;
+    }
+    .right_side_2 li{
+        font-size: 16PX;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    nav{
+        margin-left: 20%;
+    }
+    .sides{
+        flex-direction: column;
+        margin-left: 15%;
+    }
+    .left_side_2{
+        padding-bottom: 30px;
+    }
+    .right_side_2{
+        margin-left: 20%;
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    nav{
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:1120px) {
+    .topnav a{
+        display: none;
+    }
+    .topnav a.iconmenu{
+        display: block;
+        color: #fff;
+        float: right;
+        font-size: 28px;
+        margin-top: -10px;
+    }
+    nav{
+        width: 40%;
+        margin-left: 16%;
+    }
+    .topnav.responsive{
+        position: relative;
+        top: 50px;
+        right: none;
+    }
+    header .topnav.responsive{
+        height: 255px;
+    }
+    .topnav.responsive a.iconmenu{
+        position: absolute;
+        top: -50px;
+        right: 0px;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block; 
+        text-align: left;
+    }
+    .main_welcome h1{
+        font-size: 38px;
+    }
+    .main_welcome .main_weclome_h1{
+        font-size: 38px;
+    }
+    .main_welcome p{
+        font-size: 13px;
+    }
+    .services_cards{
+        grid-template-columns: auto auto;
+    }
+    .services_card h3{
+        font-size: 16px;
+    }
+    .main_services h1{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .picture_1{
+        display: none;
+    }
+    .main_services_2 h1{
+        font-size: 34px;
+        padding-bottom: 30px;
+    }
+    .main_services_2 p{
+        padding-bottom: 20px;
+    }
+    .price h1{
+        font-size: 30px;
+        padding-bottom: 70px;
+        font-weight: 200;
+    }
+    .price_table p{
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .price_table{
+        padding-left: 15%;
+    }
+    .price_table li{
+        font-size: 14px;
+        background: url(../img/negarive_point.png) 0px no-repeat;
+        padding-left: 25px;
+        padding-bottom: 6px;
+    }
+    .main_send h1{
+        font-size: 35px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .contact_wrapper{
+        padding-top: 50px;
+        width: 650px;
+        margin: 0 auto;
+        color: #636363;
+        text-align: left;
+    }
+    .bottom_head h6{
+        font-size: 10px;
+    }
+    .bottom_head p{
+        font-size: 10px;
+    }
+    .adres{
+        font-size: 10px;
+    }
+    .contact .phone_bot{
+        font-size: 10px;
+    }
+    .contact .phone_text{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:950px){
+    nav{
+        width: 40%;
+        margin-left: 10%;
+    }
+    .services_card h3{
+        font-size: 14px;
+    }
+    footer{
+        grid-template-columns: auto;
+    }
+    .adres{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header_logo{
+        font-size: 19px;
+        background: none;
+    }
+
+}
+@media screen and (max-width:750px) {
+    .services_cards{
+        grid-template-columns: auto;
+        grid-row-gap: 70px;
+    }
+    .services_card h3{
+        font-size: 12px;
+    }
+    .main_send h1{
+        font-size: 30px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .contact_wrapper{
+        padding-top: 50px;
+        width: 400px;
+        margin: 0 auto;
+        color: #636363;
+        text-align: left;
+    }
+}
+@media screen and (max-width:550px){
+    nav{
+        width: 40%;
+        margin-left: 3%;
+    }
+}
